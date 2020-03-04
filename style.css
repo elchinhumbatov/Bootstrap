@@ -1,0 +1,65 @@
+:root {
+	--sky: #6bc2f1;
+}
+header {
+	min-height: 100vh;
+	background: url('img/header.jpg') center/cover no-repeat fixed;
+}
+.navbar-brand img {	margin: -.3rem 90px 0 0 }
+.my-menu { font: bold .9em "Roboto"; color: #252525 !important }
+.my-sky-bg { background: var(--sky) }
+.my-sky-text { color: var(--sky) }
+.my-nav-bg { background: rgba(255,255,255,.8) }
+#welcome { padding: 120px 0; }
+#feature img { object-fit: cover; cursor: pointer; }
+.mytrans { position: relative; }
+.mytrans a {
+    opacity: 60%;
+    color: #fff;
+    font-size: 1em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+.mytrans a:hover {
+    color: #fff;
+    opacity: 100%
+}
+#services { padding: 120px 0 70px 0; }
+#services img {
+    width: 45px;
+    height: 50px;
+}
+.mymarg { margin: 0 0 50px 0; }
+#gallery {
+    background: #f1f1f1;
+    padding: 60px 0 30px 0;
+}
+.mymarg2 { margin: 0 0 30px 0; }
+#testimonials {
+    background: var(--sky) ;
+    padding: 90px 0;
+}
+#contact { padding: 100px 0; }
+footer { background: #072135; padding: 100px 0 70px 0; }
+.myfont {
+    color: #fff;
+    font: .9em/2 Verdana;
+}
+
+
+@media (min-width: 767.98px) {
+	.display-4 {
+		font-size: 2.5rem;
+		line-height: 1;
+	}
+    header {
+        background: url('img/header.jpg') center/cover no-repeat scroll;
+    }
+    .mytrans a {
+        font-size: 1.6em;
+        opacity: 30%;
+    }
+}
